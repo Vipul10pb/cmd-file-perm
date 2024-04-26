@@ -1,0 +1,29 @@
+938  ls
+  939  ls -l
+  940  mkdir new2
+  941  ls -l
+  942  umask
+  943  touch file
+  944  ls -l
+  945  umask 0000
+  946  umask
+  947  mkdir test2
+  948  ls -l
+  949  mkdir test3
+  950  ls -l
+  951  umask 0022
+  952  umask
+  953  mkdir test4
+  954  ls -l
+  955  mkdir -m 700 test5
+  956  ls -l
+  957  chmod 700 test6
+  958  mkdir test6
+  959  chmod 700 test6
+  960  umask 777 test7
+  961  ls -l
+  962  mkdir test7
+  963  umask 777 test7
+  964  ls -l
+  965  clear
+
